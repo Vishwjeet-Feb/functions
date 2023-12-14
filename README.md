@@ -1,6 +1,6 @@
-# AIRA Form Functions
+# AIRA Form (Functions)
 
-## 1. getElement Function : 
+## 1. getElement (Function) : 
 
 The getElement function you provided is a simple JavaScript function designed to return a jQuery element object based on a given element name or selector. Let me break down the function and provide an example:
 
