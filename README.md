@@ -11,7 +11,7 @@ getElement(eleName)
 ```
 ### Parameter
 
-| Parameter Namer     | Description                                                                   |
+| Parameter Name      | Description                                                                   |
 | ------------------- | ----------------------------------------------------------------------------- |
 | eleName             |  Element name which want to select.     (Required)                            |
 
