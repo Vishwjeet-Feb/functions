@@ -16,7 +16,7 @@ Explanation:
 * Inside the function, $(eleName) is used to create a jQuery object by selecting the element(s) that match the provided selector or name.
 * The function then returns this jQuery object.
 
-  ## 2. getElementValue Function
+## 2. getElementValue Function
 
 The function named getElementValue that takes an element selector (eleName) as a parameter and returns the value of the specified element or field. The function aims to abstract the process of getting values from elements in the webpage. Here's an example implementation using jQuery:
 
