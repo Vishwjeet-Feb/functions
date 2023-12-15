@@ -596,7 +596,7 @@ code
 
 ## 17. hideColumn : 
 
-The getElement function you provided is a simple JavaScript function designed to return a jQuery element object based on a given element name or selector. Let me break down the function and provide an example:
+Hides the specified column in the table within the grid identified by gridName based on the provided columnInd.
 
 ### Syntax
 
@@ -607,13 +607,20 @@ hideColumn(gridName,columnInd)
 
 | Parameter Name      | Description                                                                   |
 | ------------------- | ----------------------------------------------------------------------------- |
-|                     |                                                                               |
+| gridName | The identifier or selector for the target grid. |
+| columnInd | The index of the column to be hidden in the table within the grid. |
 
-Explanation:
+### Explanation:
 
-* The function takes a parameter called eleName, which is assumed to be a string representing a jQuery selector or an element name.
-* Inside the function, $(eleName) is used to create a jQuery object by selecting the element(s) that match the provided selector or name.
-* The function then returns this jQuery object.
+* The hideColumn function is designed to make a specific column invisible within the table of the specified grid on the user interface.
+* It accepts two parameters:
+ * gridName: The identifier or selector of the target grid.
+ * columnInd: The index of the column to be hidden in the table within the grid.
+* This function is particularly useful when developers need to dynamically control the visibility of columns based on user interactions or specific application requirements.
+
+### Usage:
+
+Developers can call this function with the identifier or selector of the desired grid and the index of the column to be hidden.
 
 ### Exmple Input
 
@@ -628,7 +635,7 @@ code
 
 ## 18. showColumn : 
 
-The getElement function you provided is a simple JavaScript function designed to return a jQuery element object based on a given element name or selector. Let me break down the function and provide an example:
+Shows the specified hidden column in the table within the grid identified by gridName based on the provided columnInd.
 
 ### Syntax
 
@@ -639,12 +646,20 @@ showColumn(gridName,columnInd)
 
 | Parameter Name      | Description                                                                   |
 | ------------------- | ----------------------------------------------------------------------------- |
-|                     |                                                                               |
-Explanation:
+| gridName | The identifier or selector for the target grid. |
+| columnInd | The index of the hidden column to be shown in the table within the grid. |
 
-* The function takes a parameter called eleName, which is assumed to be a string representing a jQuery selector or an element name.
-* Inside the function, $(eleName) is used to create a jQuery object by selecting the element(s) that match the provided selector or name.
-* The function then returns this jQuery object.
+### Explanation:
+
+* The showColumn function is designed to make a specific hidden column visible within the table of the specified grid on the user interface.
+* It accepts two parameters:
+ * gridName: The identifier or selector of the target grid.
+ * columnInd: The index of the hidden column to be shown in the table within the grid.
+* This function is particularly useful when developers need to dynamically control the visibility of columns based on user interactions or specific application requirements.
+
+### Usage:
+
+Developers can call this function with the identifier or selector of the desired grid and the index of the hidden column to be shown.
 
 ### Exmple Input
 
@@ -659,7 +674,7 @@ code
 
 ## 19. getGridData : 
 
-The getElement function you provided is a simple JavaScript function designed to return a jQuery element object based on a given element name or selector. Let me break down the function and provide an example:
+Retrieves and returns the complete data set (rows and columns) from the table within the grid identified by gridName.
 
 ### Syntax
 
@@ -670,13 +685,18 @@ getGridData(gridName)
 
 | Parameter Name      | Description                                                                   |
 | ------------------- | ----------------------------------------------------------------------------- |
-|                     |                                                                               |
+| gridName | The identifier or selector for the target grid. |
 
-Explanation:
+### Explanation:
 
-* The function takes a parameter called eleName, which is assumed to be a string representing a jQuery selector or an element name.
-* Inside the function, $(eleName) is used to create a jQuery object by selecting the element(s) that match the provided selector or name.
-* The function then returns this jQuery object.
+* The getGridData function is designed to provide the entire data set, including all rows and columns, from the table within the specified grid on the user interface.
+* It accepts a single parameter:
+ * gridName: The identifier or selector of the target grid.
+* This function is particularly useful when developers need to obtain the full set of data for further processing, analysis, or storage.
+
+### Usage:
+
+Developers can call this function with the identifier or selector of the desired grid to obtain its complete data set.
 
 ### Exmple Input
 
@@ -691,7 +711,7 @@ code
 
 ## 20. getControl : 
 
-Returns the jQuery object for a table's cell.
+Returns the jQuery object representing the table cell in the specified grid identified by gridName based on the provided row and column indices.
 
 ### Syntax
 
@@ -702,12 +722,18 @@ getControl(gridName, rowInd, columnInd)
 
 | Parameter Name      | Description                                                                   |
 | ------------------- | ----------------------------------------------------------------------------- |
-|                     |                                                                               |
+| gridName | The identifier or selector for the target grid. |
+| rowInd | The index of the row containing the desired table cell. |
+| columnInd | The index of the column containing the desired table cell. |
 
-Explanation:
+### Explanation:
 
-* Accepts `gridName`, `rowInd`, and `columnInd` parameters.
-* Returns the jQuery object representing the cell at the specified row and column in the specified grid.
+* The getControl function is designed to retrieve the jQuery object representing a specific table cell within the grid on the user interface.
+* It accepts three parameters:
+ * gridName: The identifier or selector of the target grid.
+ * rowInd: The index of the row containing the desired table cell.
+ * columnInd: The index of the column containing the desired table cell.
+* This function is particularly useful when developers need to access and manipulate the properties or contents of a specific cell within a grid using jQuery methods.
 
 ### Exmple Input
 
