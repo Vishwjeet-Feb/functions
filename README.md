@@ -11,7 +11,7 @@ getElement(eleName)
 ```
 ### Parameter
 
-| Parameter Name | Description                                                      i |
+| Parameter Name | Description                                                       |
 | ---------------| ----------------------------------------------------------------- |
 | eleName        |  The identifier or selector for the target element or elements.   |
 
