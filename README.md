@@ -735,6 +735,10 @@ getControl(gridName, rowInd, columnInd)
  * columnInd: The index of the column containing the desired table cell.
 * This function is particularly useful when developers need to access and manipulate the properties or contents of a specific cell within a grid using jQuery methods.
 
+### Usage:
+
+Developers can call this function with the identifier or selector of the desired grid, along with the row and column indices, to obtain the jQuery object representing the specified table cell.
+
 ### Exmple Input
 
 ```js
@@ -748,7 +752,7 @@ code
 
 ## 21. getSummary : 
 
-Returns the summary of a grid column that has been summed or averaged.
+Returns the summary (e.g., sum or average) of the values in the specified column of the grid identified by gridName.
 
 ### Syntax
 
@@ -759,12 +763,20 @@ getSummary(gridName, columnInd)
 
 | Parameter Name      | Description                                                                   |
 | ------------------- | ----------------------------------------------------------------------------- |
-|                     |                                                                               |
+| gridName | The identifier or selector for the target grid. |
+| columnInd | The index of the column for which the summary is to be calculated. |
 
-Explanation:
+### Explanation:
 
-* Accepts `gridName` and `columnInd` parameters.
-* Returns the summary (sum or average) of the values in the specified column of the specified grid.
+* The getSummary function is designed to calculate and return the summary (e.g., sum or average) of the values in a specific column within the grid on the user interface.
+* It accepts two parameters:
+ * gridName: The identifier or selector of the target grid.
+ * columnInd: The index of the column for which the summary is to be calculated.
+* This function is particularly useful when developers need to obtain aggregate information about a column, such as the total or average of numerical values.
+
+### Usage:
+
+Developers can call this function with the identifier or selector of the desired grid and the index of the column to obtain the summary of its values.
 
 ### Exmple Input
 
@@ -779,7 +791,7 @@ code
 
 ## 22. disableValidation : 
 
-Disables validation for a given input field (sets required to false).
+Disables the validation for the specified input field identified by eleName by setting the "required" attribute to false.
 
 ### Syntax
 
@@ -790,13 +802,18 @@ disableValidation(eleName)
 
 | Parameter Name      | Description                                                                   |
 | ------------------- | ----------------------------------------------------------------------------- |
-|                     |                                                                               |
+| eleName | The identifier or selector for the target input field. |
 
-Explanation:
+### Explanation:
 
-* Accepts `eleName` parameter, representing the input field identifier.
-* Disables validation for the specified input field by setting the required attribute to false.
+* The disableValidation function is designed to turn off validation for a specific input field by removing the "required" attribute.
+* It accepts a single parameter:
+ * eleName: The identifier or selector of the target input field.
+* This function is particularly useful when developers need to temporarily or conditionally disable validation for a specific input field, allowing for flexibility in form submission.
 
+### Usage:
+
+Developers can call this function with the identifier or selector of the desired input field to disable its validation.
 
 ### Exmple Input
 
