@@ -26,7 +26,7 @@ getElement(eleName)
 
 Developers can call this function with the identifier or selector of the desired HTML element to obtain a jQuery object representing that element.
 
-### Exmple Input
+### Example Input
 
 ```js
 code
@@ -62,7 +62,7 @@ getElementValue(eleName)
 
 Developers can call this function with the identifier or selector of the desired HTML element to obtain its current value.
 
-### Exmple Input
+### Example Input
 
 ```js
 code
@@ -98,7 +98,7 @@ getText(eleName)
 
 Developers can call this function with the identifier or selector of the desired HTML element to obtain its text content.
 
-### Exmple Input
+### Example Input
 
 ```js
 code
@@ -135,7 +135,7 @@ getElementAttrValue(eleName, attrName)
 
 Developers can call this function with the identifier or selector of the desired HTML element and the name of the target attribute to obtain its value.
 
-### Exmple Input
+### Example Input
 
 ```js
 code
@@ -172,7 +172,7 @@ setFieldValue(fieldName, fieldValue)
 
 Developers can call this function with the identifier or selector of the desired form field and the new value to update it.
 
-### Exmple Input
+### Example Input
 
 ```js
 code
@@ -209,7 +209,7 @@ setText(fieldName, fieldValue)
 
 Developers can call this function with the identifier or selector of the desired form field and the new default text value to update it.
 
-### Exmple Input
+### Example Input
 ```js
 code
 ```
@@ -241,7 +241,7 @@ setLabel(fieldName, fieldValue)
 * This function is particularly useful when developers need to dynamically update the label text of a form field, providing improved accessibility or reflecting changes in the user interface.
 * The label text is set to the provided fieldValue, allowing for dynamic updates to the content of form field labels.
 
-### Exmple Input
+### Example Input
 ```js
 code
 ```
@@ -277,7 +277,7 @@ hideElement(eleName)
 
 Developers can call this function with the identifier or selector of the desired HTML element to hide it.
 
-### Exmple Input
+### Example Input
 
 ```js
 code
@@ -313,7 +313,7 @@ showElement(eleName)
 
 Developers can call this function with the identifier or selector of the desired HTML element to show it.
 
-### Exmple Input
+### Example Input
 
 ```js
 code
@@ -350,7 +350,7 @@ getGridValues(gridName)
 
 Developers can call this function with the identifier or selector of the desired grid to obtain its data values.
 
-### Exmple Input
+### Example Input
 
 ```js
 code
@@ -391,7 +391,7 @@ setGridDataValue(gridName, gridValues, addNew)
 
 Developers can call this function with the identifier or selector of the desired grid, an array of new data values, and a boolean flag indicating whether to add a new row or replace existing data.
 
-### Exmple Input
+### Example Input
 
 ```js
 code
@@ -428,7 +428,7 @@ getNoOfRows(gridName)
 
 Developers can call this function with the identifier or selector of the desired grid to obtain the number of rows.
 
-### Exmple Input
+### Example Input
 
 ```js
 code
@@ -465,7 +465,7 @@ getGridHeader(gridName)
 
 Developers can call this function with the identifier or selector of the desired grid to obtain its table header values.
 
-### Exmple Input
+### Example Input
 
 ```js
 code
@@ -507,7 +507,7 @@ getGridValue(gridName, row, column)
 Developers can call this function with the identifier or selector of the desired grid, along with the row and column indices, to obtain the value of the specified table cell.
 
 
-### Exmple Input
+### Example Input
 
 ```js
 code
@@ -546,7 +546,7 @@ deleteGridRow(gridName, rowInd)
 
 Developers can call this function with the identifier or selector of the desired grid and the index of the row to be deleted.
 
-### Exmple Input
+### Example Input
 
 ```js
 code
@@ -583,7 +583,7 @@ Explanation:
 
 Developers can call this function with the identifier or selector of the desired grid to add a new row at the beginning of the table.
 
-### Exmple Input
+### Example Input
 
 ```js
 code
@@ -622,7 +622,7 @@ hideColumn(gridName,columnInd)
 
 Developers can call this function with the identifier or selector of the desired grid and the index of the column to be hidden.
 
-### Exmple Input
+### Example Input
 
 ```js
 code
@@ -661,7 +661,7 @@ showColumn(gridName,columnInd)
 
 Developers can call this function with the identifier or selector of the desired grid and the index of the hidden column to be shown.
 
-### Exmple Input
+### Example Input
 
 ```js
 code
@@ -698,7 +698,7 @@ getGridData(gridName)
 
 Developers can call this function with the identifier or selector of the desired grid to obtain its complete data set.
 
-### Exmple Input
+### Example Input
 
 ```js
 code
@@ -739,7 +739,7 @@ getControl(gridName, rowInd, columnInd)
 
 Developers can call this function with the identifier or selector of the desired grid, along with the row and column indices, to obtain the jQuery object representing the specified table cell.
 
-### Exmple Input
+### Example Input
 
 ```js
 code
@@ -778,7 +778,7 @@ getSummary(gridName, columnInd)
 
 Developers can call this function with the identifier or selector of the desired grid and the index of the column to obtain the summary of its values.
 
-### Exmple Input
+### Example Input
 
 ```js
 code
@@ -815,7 +815,7 @@ disableValidation(eleName)
 
 Developers can call this function with the identifier or selector of the desired input field to disable its validation.
 
-### Exmple Input
+### Example Input
 
 ```js
 code
