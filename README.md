@@ -382,9 +382,9 @@ setGridDataValue(gridName, gridValues, addNew)
 
 * The setGridDataValue function allows developers to dynamically update the data of a specified grid on the user interface.
 * It accepts three parameters:
-  * gridName: The identifier or selector of the target grid.
-  * gridValues: An array of data values to be set for the grid.
-  * addNew: A boolean flag indicating whether to add a new row (true) or replace existing data (false).
+   * gridName: The identifier or selector of the target grid.
+   * gridValues: An array of data values to be set for the grid.
+   * addNew: A boolean flag indicating whether to add a new row (true) or replace existing data (false).
 * This function is particularly useful when developers need to update or modify the data displayed within a grid based on user interactions or other application logic.
 
 ### Usage:
@@ -497,9 +497,9 @@ getGridValue(gridName, row, column)
 
 * The getGridValue function is designed to retrieve the value of a specific table cell within a grid on the user interface.
 * It accepts three parameters:
-  * gridName: The identifier or selector of the target grid.
-  * row: The index of the row containing the desired table cell.
-  * column: The index of the column containing the desired table cell.
+   * gridName: The identifier or selector of the target grid.
+   * row: The index of the row containing the desired table cell.
+   * column: The index of the column containing the desired table cell.
 * This function is particularly useful when developers need to fetch the content of a specific cell within a grid for further analysis, display, or manipulation.
 
 ### Usage:
@@ -538,8 +538,8 @@ deleteGridRow(gridName, rowInd)
 
 * The deleteGridRow function is designed to remove a specific row from the table within the specified grid on the user interface.
 * It accepts two parameters:
-  * gridName: The identifier or selector of the target grid.
-  * rowInd: The index of the row to be deleted from the table within the grid.
+   * gridName: The identifier or selector of the target grid.
+   * rowInd: The index of the row to be deleted from the table within the grid.
 * This function is particularly useful when developers need to dynamically remove rows from a grid based on user interactions or specific application logic.
 
 ### Usage:
@@ -576,7 +576,7 @@ Explanation:
 
 * The addGridRow function is designed to insert a new row at the beginning of the table within the specified grid on the user interface.
 * It accepts a single parameter:
-  * gridName: The identifier or selector of the target grid.
+   * gridName: The identifier or selector of the target grid.
 * This function is particularly useful when developers need to dynamically add rows to a grid, for example, when inserting new data or allowing users to input information.
 
 ### Usage:
@@ -614,8 +614,8 @@ hideColumn(gridName,columnInd)
 
 * The hideColumn function is designed to make a specific column invisible within the table of the specified grid on the user interface.
 * It accepts two parameters:
- * gridName: The identifier or selector of the target grid.
- * columnInd: The index of the column to be hidden in the table within the grid.
+  * gridName: The identifier or selector of the target grid.
+  * columnInd: The index of the column to be hidden in the table within the grid.
 * This function is particularly useful when developers need to dynamically control the visibility of columns based on user interactions or specific application requirements.
 
 ### Usage:
@@ -653,8 +653,8 @@ showColumn(gridName,columnInd)
 
 * The showColumn function is designed to make a specific hidden column visible within the table of the specified grid on the user interface.
 * It accepts two parameters:
- * gridName: The identifier or selector of the target grid.
- * columnInd: The index of the hidden column to be shown in the table within the grid.
+  * gridName: The identifier or selector of the target grid.
+  * columnInd: The index of the hidden column to be shown in the table within the grid.
 * This function is particularly useful when developers need to dynamically control the visibility of columns based on user interactions or specific application requirements.
 
 ### Usage:
@@ -691,7 +691,7 @@ getGridData(gridName)
 
 * The getGridData function is designed to provide the entire data set, including all rows and columns, from the table within the specified grid on the user interface.
 * It accepts a single parameter:
- * gridName: The identifier or selector of the target grid.
+  * gridName: The identifier or selector of the target grid.
 * This function is particularly useful when developers need to obtain the full set of data for further processing, analysis, or storage.
 
 ### Usage:
@@ -730,9 +730,9 @@ getControl(gridName, rowInd, columnInd)
 
 * The getControl function is designed to retrieve the jQuery object representing a specific table cell within the grid on the user interface.
 * It accepts three parameters:
- * gridName: The identifier or selector of the target grid.
- * rowInd: The index of the row containing the desired table cell.
- * columnInd: The index of the column containing the desired table cell.
+  * gridName: The identifier or selector of the target grid.
+  * rowInd: The index of the row containing the desired table cell.
+  * columnInd: The index of the column containing the desired table cell.
 * This function is particularly useful when developers need to access and manipulate the properties or contents of a specific cell within a grid using jQuery methods.
 
 ### Usage:
@@ -770,8 +770,8 @@ getSummary(gridName, columnInd)
 
 * The getSummary function is designed to calculate and return the summary (e.g., sum or average) of the values in a specific column within the grid on the user interface.
 * It accepts two parameters:
- * gridName: The identifier or selector of the target grid.
- * columnInd: The index of the column for which the summary is to be calculated.
+  * gridName: The identifier or selector of the target grid.
+  * columnInd: The index of the column for which the summary is to be calculated.
 * This function is particularly useful when developers need to obtain aggregate information about a column, such as the total or average of numerical values.
 
 ### Usage:
@@ -808,7 +808,7 @@ disableValidation(eleName)
 
 * The disableValidation function is designed to turn off validation for a specific input field by removing the "required" attribute.
 * It accepts a single parameter:
- * eleName: The identifier or selector of the target input field.
+  * eleName: The identifier or selector of the target input field.
 * This function is particularly useful when developers need to temporarily or conditionally disable validation for a specific input field, allowing for flexibility in form submission.
 
 ### Usage:
